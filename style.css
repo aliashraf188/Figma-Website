@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* navbar */
+
+.logo {
+    padding: 20px
+    ;
+    /* padding-left: 40px;
+    padding-top: 30px; */
+}
+
+.h1 {
+    color: #0D5EBA;
+
+    font-size: 1.5rem;
+}
+
+/* nav links */
+.nav {
+    /* padding-right: 50px;
+       padding-top: 20px; */
+
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #343434;
+    /* font-size: 20px; */
+
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    color: rgba(150, 28, 28, 0.75);
+    ;
+}
+
+
+/* end */
+
+/* hero section */
+.hero-img {
+    width: 100%;
+    /* height: 100%; */
+    box-shadow: 0px 0px 10px 2px rgba(150, 28, 28, 0.75);
+    ;
+}
+
+.hero-img img {
+    width: 100%;
+    /* height: 90vh; */
+    height: auto;
+     max-height: 90vh;
+    object-fit: cover;
+}
+
+/* Shop by */
+
+.jewelry-section {
+    /* padding: 60px 40px;
+    margin: auto; */
+
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.jewelry-section h2 {
+    /* margin-bottom: 40px; */
+
+     text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    /* gap: 30px; */
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* extra chatgpt */
+.card {
+    flex: 1 1 200px; /* min width 200px, grow */
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+
+
+.card:hover {
+    /* transform: scale(1.1); */
+    transform: scale(1.05);
+    transition: all 3s ease;
+    box-shadow: 0px 0px 10px 2px rgba(65, 64, 64, 0.75);
+}
+
+.card .btn:hover {
+    box-shadow: 0px 0px 10px 2px rgba(199, 113, 113, 0.75);
+}
+
+.card .card-body .card-title {
+    /* margin-left: 70px; */
+
+        text-align: center;
+
+}
+
+
+/* END */
+
+
+/* hand crafted pieces start */
+
+.handcrafted-section {
+    /* padding: 80px 0;
+    width: 100%; */
+
+    padding: 60px 20px;
+}
+
+.handcrafted-container {
+    /* max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center; */
+
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* txt*/
+.handcrafted-txt {
+    background-color: #08306b;
+    color: #fff;
+    padding: 80px 60px;
+
+    /* width: 50%;
+    height: 100%; */
+
+     flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+.handcrafted-txt h2 {
+    /* font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;*/
+
+    font-size: 2rem;
+}
+
+.handcrafted-txt p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 420px;
+}
+
+.handcrafted-txt .btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #fff;
+    color: #08306b;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.handcrafted-txt .btn:hover {
+    box-shadow: 0px 0px 10px 2px rgba(2, 174, 253, 0.75);
+}
+
+.handcrafted-txt .btn:hover {
+    background: #e6e6e6;
+}
+
+/* img */
+.handcrafted-image {
+    width: 50%;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 2px rgba(83, 82, 82, 0.75);
+}
+
+.handcrafted-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* END of crafted pieces */
+
+
+/* service */
+
+.cardss {
+    /* width: 500px;
+    height: 100%; */
+
+    flex: 1 1 200px;
+    max-width: 300px;
+    text-align: center;
+
+}
+
+.cardss img {
+    width: 100%;
+    /* height: 100%; */
+        height: auto;
+
+}
+
+.cardss h6 {
+    color: #08306b;
+}
+
+.service {
+    /* gap: 50px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.service-btn {
+    padding: 7px 10px;
+    background: #08306b;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+.service-btn:hover {
+    box-shadow: 0px 0px 10px 2px rgba(2, 174, 253, 0.75);
+}
+
+.service-btn:hover {
+    background: #e6e6e6;
+}
+
+/* end */
+
+
+.footer {
+    width: 100%;
+    height: 35vh;
+    background-color: #B8E0EF;
+    text-align: center;
+}
+
+.copyright {
+    color: #53585F;
+}
+
+.name-f .icons{
+    text-align: end;
+    justify-content: end;
+    justify-items: end;
+    gap: 10px;
+}
+
+
+
+.footer .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer h6 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 2px 0;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .handcrafted-container {
+        flex-direction: column;
+    }
+
+    .handcrafted-txt {
+        padding: 20px;
+    }
+
+    .cards {
+        gap: 15px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .hero-img img {
+        max-height: 60vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    .handcrafted-txt h2 {
+        font-size: 1.5rem;
+    }
+
+    .handcrafted-txt p {
+        font-size: 0.9rem;
+    }
+
+    .service-btn {
+        padding: 8px 15px;
+    }
+}
