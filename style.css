@@ -303,7 +303,8 @@ body {
 
 
 
-/* Media Queries */
+/* Media Query */
+/* for tabs */
 @media (max-width: 768px) {
     .handcrafted-container {
         flex-direction: column;
@@ -326,6 +327,7 @@ body {
     }
 }
 
+/* for mobiles */
 @media (max-width: 480px) {
     .nav a {
         font-size: 0.9rem;
