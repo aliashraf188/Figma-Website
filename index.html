@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
-<body>
+<body id="home">
 
     <!-- Navbar -->
 
@@ -31,11 +31,11 @@
         <div>
             <nav class="nav">
                 <ul class="nav gap-5 nav-fs-md-monospace flex-wrap">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#" class="d-none d-sm-flex">About</a></li>
-                    <li><a href="#" class="d-none d-sm-flex">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about" class="d-none d-sm-flex">About</a></li>
+                    <li><a href="#contact" class="d-none d-sm-flex">Contact</a></li>
                     <li><a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
                 </ul>
             </nav>
@@ -60,7 +60,7 @@
 
 
 
-        <section class="jewelry-section">
+        <section class="jewelry-section" id="shop">
             <h2 style="color: #002D69;">SHOP BY JEWELRY TYPE</h2>
 
             <!-- 1st card -->
@@ -162,7 +162,8 @@
 
                 <div class="card" style="width: 25%;">
                     <img src="./images/81883a5f0ae4b11d8829e27c265e5bbbc4520fca.png" alt=""
-                    onmouseleave="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFSWVWPsCHgqqqJ9o3JjhQBb4De36oJ1dUXg&s'" height="237px">
+                        onmouseleave="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFSWVWPsCHgqqqJ9o3JjhQBb4De36oJ1dUXg&s'"
+                        height="237px">
                     <div class="card-body">
                         <h5 class="card-title">Women's Chain</h5>
                         <p class="card-text">A decorative piece of jewelry worn around the neck to add elegance and
@@ -175,7 +176,7 @@
 
                 <div class="card" style="width: 25%;">
                     <img src="./images/b0bc56abd544938b8eb02b1e200dd09e2e65fa17.png" alt=""
-                    onmouseleave="src='https://thumbs.dreamstime.com/b/man-stands-confidently-wearing-simple-black-shirt-his-neck-adorned-shiny-gold-chain-glimmering-daylight-urban-350121905.jpg'"
+                        onmouseleave="src='https://thumbs.dreamstime.com/b/man-stands-confidently-wearing-simple-black-shirt-his-neck-adorned-shiny-gold-chain-glimmering-daylight-urban-350121905.jpg'"
                         height="237px">
                     <div class="card-body">
                         <h5 class="card-title">Men's Chain</h5>
@@ -188,50 +189,62 @@
                 <!-- 3rd card -->
                 <div class="card" style="width: 25%;">
                     <img src="./images/84415b17bd3f65df505ff6e25c6f0453f746077e.png" alt=""
-                    onmouseleave="src='https://wwake.com/cdn/shop/files/WwakeMay151053_high_res_600x600_crop_center.jpg?v=1748364040'"
+                        onmouseleave="src='https://wwake.com/cdn/shop/files/WwakeMay151053_high_res_600x600_crop_center.jpg?v=1748364040'"
                         height="237px">
                     <div class="card-body">
                         <h5 class="card-title">Ear Rings</h5>
-                        <p class="card-text">A stylish piece of jewelry worn on the ear to enhance beauty and complete the look.</p>
+                        <p class="card-text">A stylish piece of jewelry worn on the ear to enhance beauty and complete
+                            the look.</p>
                         <a href="#" class="btn btn-primary">Add To Cart</a>
                     </div>
                 </div>
-                
+
             </div>
-            
+
         </section>
-        
+
         <!-- END -->
-        
-        
-         <!-- service start -->
-        
-        <section class="ps-3 pe-3 mb-5">
+
+
+        <!-- service start -->
+
+        <section class="ps-3 pe-3 mb-5" id="services">
             <h2 style="color: #002D69;" class="ps-4">Our Services</h2>
             <div class="service d-flex">
 
                 <div class="cardss mt-4" style="width: 100%;">
                     <img src="./images/d707ccebd762ae619861c608e267ac5590c2480a.png" alt="" height="237px">
                     <h6 class="mt-2 text-center">Jewelry Repair</h6>
+                </div>
+
+
+                <div class="cardss mt-4" style="width: 100%;">
+                    <img src="./images/895cb65eaf1062f415ed2a462bedb6c28ff77700.png" alt="" height="237px">
+                    <h6 class="mt-2 text-center">Ring Sizing</h6>
+                </div>
+
+
+                <div class="cardss mt-4" style="width: 100%;">
+                    <img src="./images/cd65cb95cc0eaff6d7d6cd11cafd8b4eacca4c26.png" alt="" height="237px">
+                    <h6 class="mt-2 text-center">jewelry Polishing</h6>
+                </div>
             </div>
-            
-            
-            <div class="cardss mt-4" style="width: 100%;">
-                <img src="./images/895cb65eaf1062f415ed2a462bedb6c28ff77700.png" alt="" height="237px">
-                <h6 class="mt-2 text-center">Ring Sizing</h6>
-            </div>
-            
-            
-            <div class="cardss mt-4" style="width: 100%;">
-                <img src="./images/cd65cb95cc0eaff6d7d6cd11cafd8b4eacca4c26.png" alt="" height="237px">
-                <h6 class="mt-2 text-center">jewelry Polishing</h6>
-            </div>
-        </div>
-        <a href="#" class="service-btn">Learn More</a>
-        
+            <a href="#" class="service-btn">Learn More</a>
+
         </section>
-        
-        
+
+
+        <!-- about side -->
+        <section id="about">
+            <h2 style="color: #002D69;" class="ps-4">ABOUT US</h2>
+            <p id="paragraph" onclick="fullPara()"  class="ms-4">BAYSIDE FINE JEWELRY is a celebration of timeless beauty,....
+                <em><i>See More</i></em></p>
+
+        </section>
+        <!-- end -->
+
+
+
         <footer class="footer">
 
             <div class="d-flex  d-sm-2">
@@ -242,35 +255,35 @@
                     <p>Terms of services</p>
                     <p>FAQ</p>
                 </div>
-                
+
                 <div class="text-start ms-5 mt-3 container">
                     <h6>Resources</h6>
-                <p>Documentation</p>
-                <p>Case Studies</p>
+                    <p>Documentation</p>
+                    <p>Case Studies</p>
+                </div>
+
+                <div class="text-start me-5 mt-3 container">
+                    <h6>Company</h6>
+                    <p>About Us</p>
+                    <p>Conatct Us</p>
+                </div>
             </div>
-            
-            <div class="text-start me-5 mt-3 container">
-                <h6>Company</h6>
-                <p>About Us</p>
-                <p>Conatct Us</p>
-            </div>
-        </div>
 
-            <hr>
+            <hr id="hr">
 
-            <div class="name-f d-flex">
+            <div class="name-f d-flex" id="contact">
 
-                <div class="copyright ps-5">© Blue Diamond Jewelry <sup>TM</sup> 2021   </div>
-            
+                <div class="copyright ps-5">© Blue Diamond Jewelry <sup>TM</sup> 2021 </div>
+
                 <div class="icons ms-5">
                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
-            
+
         </footer>
-        
+
 
 
 
